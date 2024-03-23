@@ -23,4 +23,7 @@
 // =>true because its a string
 // console.log(Boolean(0))===>false because number
 
+//////////////////////////
+// operations
+
 
