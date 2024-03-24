@@ -57,6 +57,31 @@
 
 // }))
 
+// arrays
+//  const arr= [1,2,3,4,5,6]
+// console.log(arr);
+// shallow copy share the same reference point while deep copies share the different refrence point 
+// const arr2=new Array (1,2,3,4,4)
+//another way to make array
+// methods
+// console.log(arr.concat(arr2))
+// slice(1,3)=>outout comes 1,2 og arrays stays 12344
+//splice(1,3)=>output comes 1,2,3 but it changes the og array to 44 
+// arr1.concat(arr2)// limitation only 2 arrays are concatinated
+//[...arr1,...arr2,...arr3]// concatination of 3 arrays
+
+
+//array ke andar array or arrays
+// const arr1= [1,2,2,[1,1,1,[1,1,1]],6525]
+// const realarr= arr1.flat(Infinity)// this infinity is the depth , upto which depth do we want the arrays to be flat out.
+
+
+// to check weather its an array function used is isArray()
+// to convert into an array fn used is .from()
+// let jh ="abcde"+"SJD";
+// console.log( Array.from(jh))
+// console.log(newarr.flat(Infinity))
+
 
 
 
