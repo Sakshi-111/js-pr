@@ -26,4 +26,39 @@
 //////////////////////////
 // operations
 
+//strings
+// let name = "Sakshi"
+// const name_1 = new String('sakshi')
+// console.log(name_1.slice(3))
+// console.log(name)
+// SPLICE IS   A METHOD FOR ARRAYS
+// console.log(name.includes('i'))
+// console.log(name.charAt(1))
+// // MATHS
+
+// console.log (Math.ceil(4.1))// returns top value 
+// console.log(Math.floor(4.9))// returns base value
+// console.log(Math.max(2,3,3,44,5))
+
+//date and time
+
+
+
+// for fututre look at temporal 
+
+//  let mydate=  Date.now();
+// // console.log(typeof(mydate)) // object
+// console.log (mydate.getHours());
+// let date_rn= Date.now()// gives date in milliseconds right now from 1 jan 1970.
+// console.log(date_rn/1000);// givess ans in deicmal to get in seconds
+// console.log(Math.floor(date_rn/1000))
+// console.log(mydate.toLocaleString('default',{
+//     weekday:"narrow"
+
+// }))
+
+
+
+
+
 
