@@ -83,6 +83,20 @@
 // console.log(newarr.flat(Infinity))
 
 
+//objects
+const jsuser= {name:"sakshi", email:"sakshi@gmail.com", phno: "66", "address":"shimla", "isLogged in": "fr"}
+// console.log(jsuser.email)//=> sakshi@gmail.com
+// // console.log(jsuser[email])//=>error because internally it makes every key into a string 
+// console.log (jsuser["email"])//=>prints correctlly
+// console.log(jsuser[address])//=>prints not defined ,will only take string as input
+// console.log(jsuser["address"])// correct
+// console.log(jsuser.address)// correct
+
+// console.log(jsuser["isLogged in"]) // wrong becuase  the keys with space can be acceed only using []
+// console.log(jsuser[isLogged in])// error
+
+
+
 
 
 
