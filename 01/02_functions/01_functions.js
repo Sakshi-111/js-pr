@@ -9,11 +9,25 @@
 
 // console.log(( juser[mysym]));
 
+
+// const jsuser={}
+// jsuser.name="abcd";
+// jsuser.surname="abcde";
+// jsuser.college="wewe"
+// console.log(jsuser)
+
+
+
 ///////////////////////////////////////////functions//////////////////////////////////////////////////////////////
 // juser.greeting= function(){
 //     console.log(`hello ${juser.name}`)
 // }
 // console.log(juser.greeting()); 
 // console.log(typeof(juser[mysym]));
+///
+
+
+
+
 
 
