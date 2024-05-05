@@ -84,7 +84,7 @@
 
 
 //objects
-const jsuser= {name:"sakshi", email:"sakshi@gmail.com", phno: "66", "address":"shimla", "isLogged in": "fr"}
+c//onst jsuser= {name:"sakshi", email:"sakshi@gmail.com", phno: "66", "address":"shimla", "isLogged in": "fr"}
 // console.log(jsuser.email)//=> sakshi@gmail.com
 // // console.log(jsuser[email])//=>error because internally it makes every key into a string 
 // console.log (jsuser["email"])//=>prints correctlly

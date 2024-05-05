@@ -15,6 +15,10 @@
 // jsuser.surname="abcde";
 // jsuser.college="wewe"
 // console.log(jsuser)
+// const obje1 =  {1:"a",2:"b",3:"c"}
+// const obje2={8:"a",2:"b",3:"c"}
+// const obj3={obje1,obje2}
+// console.log(obj3);
 
 
 
@@ -24,8 +28,30 @@
 // }
 // console.log(juser.greeting()); 
 // console.log(typeof(juser[mysym]));
-///
+// ///
+// function userloggedin(username){
+   
+//    return  `${username}logged in`
 
+// }
+// console.log(userloggedin("hiii"))
+
+
+// denno("sakshi")
+// function denno(username){
+//    console.log(`${username}`)
+// }
+// const den= function(username){
+//    console.log(`${username}`)
+//  }
+
+// den("sakshi")
+//can call a function before initialiisation when syntax is 
+// function(parameter{
+   // }
+
+//but cannot call a function when const abc= functionn(){}
+ 
 
 
 
