@@ -29,7 +29,11 @@
 // console.log(juser.greeting()); 
 // console.log(typeof(juser[mysym]));
 // ///
-// function userloggedin(username){
+// function userloggedin(username="sam"){
+   // if(!username){
+   //    console.log("enter a username!")
+
+   // }
    
 //    return  `${username}logged in`
 
@@ -51,6 +55,43 @@
    // }
 
 //but cannot call a function when const abc= functionn(){}
+// function addtwonumbers(num1,num2){
+//    let num= num1+num2;
+//    console.log( num);
+//    return num;
+
+// }
+
+// console.log(addtwonumbers(2,3))
+
+// function calculateprice(...num1){
+//    return num1;
+
+// }
+// console.log(calculateprice(2,3,4))
+
+// const user={
+//    username:"fey",
+//    price:34
+// }
+// function disp(obj){
+//    return(`${obj.username} price is ${obj.price} `)
+
+// }
+// console.log(disp(user))
+function one(){
+   const web= "youtube"
+   console.log(web)
+   function two(){
+      const website= "whatsaap"
+      console.log(website)
+   }
+   two()
+   website="what"
+   console.log (website)
+}
+one()
+
  
 
 
