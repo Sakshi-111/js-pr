@@ -79,19 +79,20 @@
 
 // }
 // console.log(disp(user))
-function one(){
-   const web= "youtube"
-   console.log(web)
-   function two(){
-      const website= "whatsaap"
-      console.log(website)
-   }
-   two()
-   website="what"
-   console.log (website)
-}
-one()
+// function one(){
+//    const web= "youtube"
+//    console.log(web)
+//    function two(){
+//       const website= "whatsaap"
+//       console.log(website)
+//    }
+//    two()
+//    website="what"
+//    console.log (website)
+// }
+// one()
 
+ 
  
 
 
