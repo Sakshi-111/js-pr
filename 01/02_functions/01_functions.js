@@ -51,7 +51,7 @@
 
 // den("sakshi")
 //can call a function before initialiisation when syntax is 
-// function(parameter{
+// function(parameter){
    // }
 
 //but cannot call a function when const abc= functionn(){}
@@ -91,11 +91,39 @@
 //    console.log (website)
 // }
 // one()
+// const user={  username: "sakshi",
+// price:123,
+// wel: function(){
+//    console.log(`${this.username}`)
 
- 
- 
+// }
+// }
+
+// user.wel()
+// 
+
+// arrow function
+//const usersum=(n1,n2) => n1+n2 //implicit 
 
 
+//normal function
+// function usersum1 (n1,n2) {
+//    return n1+n2;
+// }
+//explicit function
+
+// const usersum2= (n1,n2)=>{
+//    return n1+n2}
+// console.log(usersum(23,33))
+// console.log(usersum1(23,33))
+// console.log(usersum2(23,33))
+
+ const one=(n1,n2)=>({
+     username: "sakhsi"
+    
+
+ })
+ console.log(one(1,2))
 
 
 
