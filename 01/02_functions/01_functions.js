@@ -118,12 +118,13 @@
 // console.log(usersum1(23,33))
 // console.log(usersum2(23,33))
 
- const one=(n1,n2)=>({
-     username: "sakhsi"
+//  const one=(n1,n2)=>({
+//      username: "sakhsi"
     
 
- })
- console.log(one(1,2))
+//  })
+//  console.log(one(1,2))
+
 
 
 
