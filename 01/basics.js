@@ -27,8 +27,12 @@
 // operations
 
 //strings
-// let name = "Sakshi"
-// const name_1 = new String('sakshi')
+// let name = "Sakshi"->>object
+// const name_1 = new String('sakshi') ->>object 
+
+
+
+
 // console.log(name_1.slice(3))
 // console.log(name)
 // SPLICE IS   A METHOD FOR ARRAYS
