@@ -1,7 +1,6 @@
+//functions in javascript
 
 
-
-///////////////////////////////////////////functions//////////////////////////////////////////////////////////////
 // juser.greeting= function(){
 //     console.log(`hello ${juser.name}`)
 // }
@@ -28,6 +27,8 @@
 //    console.log(`${username}`)
 //  }
 
+
+//hoisting: cant access a function before declaration if it is stored in a variable
 // den("sakshi")
 //can call a function before initialiisation when syntax is 
 // function(parameter){
