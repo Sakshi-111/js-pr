@@ -1,28 +1,5 @@
-//whenever object is made using literals singleton object is  not made wheras whenever it is made using constructor singleton is maade 
-//object.create  is constructor method...// const jsuser={} no singleton
-// const jsuser =new Object()  //singleton
-// const juserr= {}
-//  let mysym=Symbol("jjj")  // non singleton
-// const juser={ name: "sakshi",id:219,college :"bvp", [mysym]:"key1ee" }
-// // console.log(juser["college"])
-// console.log(juser.college);
 
-// console.log(( juser[mysym]));
-
-
-// const jsuser={}
-// jsuser.name="abcd";
-// jsuser.surname="abcde";
-// jsuser.college="wewe"
-// console.log(jsuser)
-// const obje1 =  {1:"a",2:"b",3:"c"}
-// const obje2={8:"a",2:"b",3:"c"}
-// const obj3={obje1,obje2}
-// console.log(obj3);
-
-
-
-///////////////////////////////////////////functions//////////////////////////////////////////////////////////////
+functions
 // juser.greeting= function(){
 //     console.log(`hello ${juser.name}`)
 // }
@@ -31,7 +8,9 @@
 // ///
 // function userloggedin(username="sam"){
    // if(!username){
-   //    console.log("enter a username!")
+   //    console.log("enter a username!")+
+
+
 
    // }
    
@@ -98,13 +77,20 @@
 
 // }
 // }
+//=> this keyword is used to get current context which is object in which it is being written to 
+//access that objects properties. 
+// this keyword cant be used by independednt functions to acess functions's local proprty 
+
 
 // user.wel()
 // 
 
 // arrow function
-//const usersum=(n1,n2) => n1+n2 //implicit 
-
+//()=>{}
+//const usersum=(n1,n2) => n1+n2 //implicit =>because it implicitly assumed that return keyword 
+// const usersum=(num1,num2)=>{ return num1+num2} //=> {} return keyword is important () return not imp
+// const addtwo= (num1,num2)=>({username:"hi"}) // object can only be wrapped in (). not{}
+// console.log(addtwo(2,3));
 
 //normal function
 // function usersum1 (n1,n2) {

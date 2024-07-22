@@ -1,1 +1,4 @@
-const obj3= Object.assign(obje1,obje2);
+// const accName= "employee";
+// let accPass= "tewo12";
+// var accstart="themin";
+// console.log(accName);
