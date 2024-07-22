@@ -27,6 +27,8 @@
 // operations
 
 //strings
+
+
 // let name = "Sakshi"->>object
 // const name_1 = new String('sakshi') ->>object 
 
@@ -62,6 +64,8 @@
 // }))
 
 // arrays
+
+
 //  const arr= [1,2,3,4,5,6]
 // console.log(arr);
 // shallow copy share the same reference point while deep copies share the different refrence point 
@@ -72,7 +76,7 @@
 // slice(1,3)=>outout comes 1,2 og arrays stays 12344
 //splice(1,3)=>output comes 1,2,3 but it changes the og array to 44 
 // arr1.concat(arr2)// limitation only 2 arrays are concatinated
-//[...arr1,...arr2,...arr3]// concatination of 3 arrays
+//[...arr1,...arr2,...arr3]// concatination of 3  or more arrays
 
 
 //array ke andar array or arrays
@@ -88,7 +92,9 @@
 
 
 //objects
-c//onst jsuser= {name:"sakshi", email:"sakshi@gmail.com", phno: "66", "address":"shimla", "isLogged in": "fr"}
+
+
+//const jsuser= {name:"sakshi", email:"sakshi@gmail.com", phno: "66", "address":"shimla", "isLogged in": "fr"} //=>object literal , multiple copy
 // console.log(jsuser.email)//=> sakshi@gmail.com
 // // console.log(jsuser[email])//=>error because internally it makes every key into a string 
 // console.log (jsuser["email"])//=>prints correctlly
@@ -98,6 +104,67 @@ c//onst jsuser= {name:"sakshi", email:"sakshi@gmail.com", phno: "66", "address":
 
 // console.log(jsuser["isLogged in"]) // wrong becuase  the keys with space can be acceed only using []
 // console.log(jsuser[isLogged in])// error
+
+
+
+
+
+//whenever object is made using literals singleton object is  not made wheras whenever it is made using constructor singleton is maade 
+//object.create  is constructor method...// const jsuser={} no singleton
+// const jsuser =new Object()  //singleton
+// const juserr= {}
+//  let mysym=Symbol("jjj")  // non singleton
+// const mysym= Symbol()
+// const juser= { name: "sakshi",id:219,college :"bvp", [mysym]:"" };
+// console.log(juser["college"]);
+// console.log(juser[mysym]);
+// console.log(juser.college);
+
+// console.log(( juser[mysym]));
+
+
+// const jsuser={}
+// jsuser.name="abcd";
+// jsuser.surname="abcde";
+// jsuser.college="wewe"
+// console.log(jsuser)
+// const obje1 =  {1:"a",2:"b",3:"c"}
+// const obje2={8:"a",2:"b",3:"c"}
+// const obj3={obje1,obje2}
+// console.log(obj3); //=>    {
+//                             obje1: { '1': 'a', '2': 'b', '3': 'c' },
+//                             obje2: { '2': 'b', '3': 'c', '8': 'a' }
+//                             }
+
+// const obj3= Object.assign(obje1,obje2);
+// console.log(obj3); //=>    { '1': 'a', '2': 'b', '3': 'c', '8': 'a' }
+// const obj3= Object.assign({},obje1,obje2);
+// console.log(obj3); //=>      { '1': 'a', '2': 'b', '3': 'c', '8': 'a' }
+// same result only the target object is obje1 in first and obje2 in second
+
+// more practical syntax is 
+// const obje3 = {...obje1,...obje2} //=>{ '1': 'a', '2': 'b', '3': 'c', '8': 'a' }
+// console.log(obje3);
+//  same result .
+
+// Object.keys(juser); //=> returns an array of keys
+// Object.values(juser); //=>returns an array of values
+
+
+
+
+
+//symbol
+
+
+
+// const mysym= Symbol("key1");
+//  const jsuser= {name:"sakshi", email:"sakshi@gmail.com", phno: "66", "address":"shimla", "isLogged in": "fr", mysym :"newkey"}
+// here mysym is normal string key value pair
+// const jsuser= {name:"sakshi", email:"sakshi@gmail.com", phno: "66", "address":"shimla", "isLogged in": "fr",[ mysym] :"newkey"}
+// here mysym is symbol key value pair
+// console.log(jsuser[mysym])//=>newkey
+
 
 
 
