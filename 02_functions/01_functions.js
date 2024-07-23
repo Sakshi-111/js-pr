@@ -108,8 +108,12 @@
 // user.wel()
 // 
 
+
 // arrow function
 //()=>{}
+//()=>()
+
+
 //const usersum=(n1,n2) => n1+n2 //implicit =>because it implicitly assumed that return keyword 
 // const usersum=(num1,num2)=>{ return num1+num2} //=> {} return keyword is important () return not imp
 // const addtwo= (num1,num2)=>({username:"hi"}) // object can only be wrapped in (). not{}
@@ -133,7 +137,20 @@
 
 //  })
 //  console.log(one(1,2))
+// const Arr=[1,2,3,4]
+// function print(item){
+//    console.log(item);
+// }
+// Arr.forEach(print);
+
+const myarr=[1,2,3,4,5]
+
+// myarr.forEach((num)=>(console.log(num)))
 
 
+const myarr1=[1,2,3,4,5,6]
+const newN=myarr.filter((i)=>(i>1));
+console.log(newN);
 
+ 
 

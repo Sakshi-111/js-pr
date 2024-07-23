@@ -1,4 +1,1 @@
-// const accName= "employee";
-// let accPass= "tewo12";
-// var accstart="themin";
-// console.log(accName);
+const obje2=['10',20,30,400,5];
